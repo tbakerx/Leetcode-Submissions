@@ -22,4 +22,12 @@ What results is an intersection array showing the values that occur in both and 
 #### Note: Does not work with integers larger than 9 or negative values
 
 
-### Solution 2 -  
+### Solution 2 - Reduce and Filter [Accepted]
+Start by using a reduce function to track how many times an item occurs in the first list.
+
+Then filter out values from the second list by the number of times it occurred in the first list.
+
+Resulting array is a list of values that occur in both and the amount of times they do so.
+
+Time complexity: O(n)
+Space complexity: O(1) 
