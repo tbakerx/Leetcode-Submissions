@@ -5,6 +5,7 @@
 var plusOne = function(digits) {
     if (digits[digits.length-1]<9){
         digits[digits.length-1]+=1;
+	return digits;
     }else {
         if(allNine(digits)){
            digits[0]=1;
