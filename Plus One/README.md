@@ -6,7 +6,7 @@ You may assume the integer do not contain any leading zero, except the number 0 
 
 The digits are stored such that the most significant digit is at the head of the list.
 
-# Solution - Direct [Accepted]
+### Solution - Direct [Accepted]
 
 Solution is quite direct and simple. The key is handling the rarer case where the digits are all 9.
 I start by checking if the last digit is less than 9. If so, simply increment that digit.
