@@ -5,7 +5,7 @@ Given an array of integers, return indices of the two numbers such that they add
 You may assume that each input would have exactly one solution, and you may not use the same element twice.
 
 
-### Solution [Accepted]
+### Solution 1 - Brute Force [Accepted]
 
 Brute force. Take first value and search the rest of array to check if anything satisfies. If not, move on to the next value.
 
