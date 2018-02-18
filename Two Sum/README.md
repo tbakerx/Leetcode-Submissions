@@ -10,4 +10,5 @@ You may assume that each input would have exactly one solution, and you may not 
 Brute force. Take first value and search the rest of array to check if anything satisfies. If not, move on to the next value.
 
 Time complexity: O(n^2)
+
 Space complexity: O(1)

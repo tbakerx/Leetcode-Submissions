@@ -23,4 +23,5 @@ Space Complexity: O(n) - Returns a new String
 This is the simplest of implementations but I figured I might as well throw it in. Simply makes a new "Result" String and then runs through the input String from back to front adding the characters encountered to the end of the result String.
 
 Time Complexity: O(n) - Traverses the whole input String
+
 Space Complexity: O(n) - Creates and retuns a result String
