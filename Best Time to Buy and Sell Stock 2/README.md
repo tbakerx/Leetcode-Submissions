@@ -9,4 +9,5 @@ Design an algorithm to find the maximum profit. You may complete as many transac
 Approach involves going through the array in one pass and adding the differences between points as long as the values are increasing.
 
 Time complexity: O(n)
+
 Space complexity: O(1)
